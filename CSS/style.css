@@ -16,3 +16,15 @@
 .navbar-nav li .nav-a:hover {
   color: #000;
 }
+.nav-inscreva {
+  margin-left: 10px;
+}
+@media (max-width: 980px) {
+  .nav-inscreva {
+    margin-left: 0;
+  }
+}
+
+.section-1 {
+  margin-top: 60px;
+}
