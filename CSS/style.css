@@ -1,4 +1,4 @@
-* {
+.navbar-nav li .nav-a {
   font-family: "Roboto", sans-serif;
 }
 .logo {
@@ -27,4 +27,7 @@
 
 .section-1 {
   margin-top: 60px;
+}
+.iconeHeight {
+  height: 100px;
 }
