@@ -31,3 +31,30 @@
 .iconeHeight {
   height: 100px;
 }
+.home-quote {
+  background: url(../img/img-quote1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 55vh;
+  margin-bottom: 50px;
+}
+.home-p {
+  max-width: 830px;
+}
+
+@media (max-width: 900px) {
+  .fixed-top {
+    position: relative !important;
+  }
+  .section-1 {
+    margin-top: 0;
+  }
+  .home-quote blockquote {
+    align-self: end;
+    padding-right: 10px;
+  }
+  .home-p {
+    font-size: 18px !important;
+    max-width: 278px;
+  }
+}
