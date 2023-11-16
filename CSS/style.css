@@ -1,3 +1,7 @@
+* {
+  text-decoration: none;
+  list-style: none;
+}
 .navbar-nav li .nav-a {
   font-family: "Roboto", sans-serif;
 }
@@ -58,4 +62,36 @@
     font-size: 18px !important;
     max-width: 278px;
   }
+}
+
+.pergunstasText {
+  margin-bottom: 30px;
+}
+.textNone {
+  text-decoration: none;
+  border-bottom: 2px solid #ffffff;
+}
+.textNone:hover {
+  border-bottom: 2px solid #0d6efd;
+}
+.bv {
+  margin-bottom: 300px;
+}
+.rt {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 2px;
+  align-self: flex-end;
+  justify-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #e9ecef;
+}
+.rt p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.rt:last-of-type {
+  border-bottom: none;
 }
