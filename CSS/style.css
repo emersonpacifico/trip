@@ -101,6 +101,10 @@
 
 .ul-hover li {
   color: #868a8d !important;
+  cursor: pointer;
+}
+.cursor-link {
+  cursor: pointer;
 }
 .ul-hover li:hover {
   color: #ffffff !important;
