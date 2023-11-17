@@ -1,9 +1,11 @@
 * {
+  margin: 0;
+  padding: 0;
   text-decoration: none;
   list-style: none;
 }
 .navbar-nav li .nav-a {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
 }
 .logo {
   margin-left: 15px;
@@ -92,4 +94,25 @@
 }
 .rt:last-of-type {
   border-bottom: none;
+}
+.bg-icon:hover {
+  cursor: pointer;
+}
+
+.col-3 li {
+  color: #868a8d !important;
+}
+.col-3 li:hover {
+  color: #ffffff !important;
+}
+
+@media (max-width: 900px) {
+  footer .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 0px;
+  }
+  .col-3 {
+    width: 100% !important;
+  }
 }
