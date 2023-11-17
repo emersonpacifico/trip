@@ -99,13 +99,15 @@
   cursor: pointer;
 }
 
-.col-3 li {
+.ul-hover li {
   color: #868a8d !important;
 }
-.col-3 li:hover {
+.ul-hover li:hover {
   color: #ffffff !important;
 }
-
+.li-line {
+  color: #868a8d;
+}
 @media (max-width: 900px) {
   footer .row {
     display: grid;
