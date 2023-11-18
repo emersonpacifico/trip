@@ -69,6 +69,10 @@
 .pergunstasText {
   margin-bottom: 30px;
 }
+.textNoneModal {
+  text-decoration: none;
+  cursor: pointer;
+}
 .textNone {
   text-decoration: none;
   border-bottom: 2px solid #ffffff;
