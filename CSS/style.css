@@ -4,6 +4,9 @@
   text-decoration: none;
   list-style: none;
 }
+img {
+  border-radius: 4px;
+}
 .navbar-nav li .nav-a {
   font-family: sans-serif;
 }
@@ -116,6 +119,14 @@
 .li-line {
   color: #868a8d;
 }
+
+.img-fluid {
+  max-width: 300px !important;
+}
+
+.w-500 {
+  width: 900px;
+}
 @media (max-width: 900px) {
   footer .row {
     display: grid;
@@ -124,5 +135,12 @@
   }
   .col-3 {
     width: 100% !important;
+  }
+  .display-4 {
+    font-size: 2.375rem !important;
+  }
+
+  .w-500 {
+    width: 400px;
   }
 }
