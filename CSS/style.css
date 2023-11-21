@@ -125,7 +125,7 @@ img {
 }
 
 .w-500 {
-  width: 850px;
+  width: 350px !important;
 }
 @media (max-width: 900px) {
   footer .row {
